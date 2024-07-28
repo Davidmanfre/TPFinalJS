@@ -83,7 +83,7 @@ function eliminarDelCarrito(e) {
             x: '1.5rem',
             y: '1.5rem'
         },
-        onClick: function(){} // Callback after click
+        onClick: function(){}
     }).showToast();
 
     const idBoton = e.currentTarget.id;
